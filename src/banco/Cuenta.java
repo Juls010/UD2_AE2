@@ -22,7 +22,7 @@ public class Cuenta {
 	//Metodo para retirar una cantidad de dinero del saldo de la cuenta:
 	public void retirar(float cantidad) {
 		if(cantidad>saldo) {
-			System.out.println("No puedes retirar más dinero del que tienes");
+			System.out.println("No puedes retirar mas dinero del que tienes");
 		}else {
 			saldo-=cantidad;
 		}
